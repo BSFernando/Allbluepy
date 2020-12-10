@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+allblue.egg-info/PKG-INFO
+allblue.egg-info/SOURCES.txt
+allblue.egg-info/dependency_links.txt
+allblue.egg-info/requires.txt
+allblue.egg-info/top_level.txt
+allbluepy/License.txt
+allbluepy/README.md
+allbluepy/__allblue__.py
+allbluepy/__init__.py
+allbluepy/ecorregião.csv
+allbluepy/help.txt
+allbluepy/província.csv
+allbluepy/região.csv
+allbluepy/zona_economica.csv
