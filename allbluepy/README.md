@@ -4,7 +4,7 @@ Banco de dados feitos a partir da extração dos vértices de arquivos shapefile
 
 1 Arquivos baixados em: Flanders Marine Institute (2020): MarineRegions.org. Disponível online em www.marineregions.org . Consultado em 2020-12-08.;
 
-<img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/0site.jpeg" alt="alt text" width="600px">
+<img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/0site.jpg" alt="alt text" width="600px">
 
 2 Diminuição no número de vértices em cada polígono;
 
