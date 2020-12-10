@@ -1,5 +1,11 @@
 Allblue retorna informações oceânicas como região, zona econômica e provícias das coordenadas mais próximas aos valores de entrada.
 
+------
+
+Install: pip install allblue==0.1.7
+
+------
+
 Banco de dados feitos a partir da extração dos vértices de arquivos shapefile.
 
 1 Arquivos baixados em: Flanders Marine Institute (2020): MarineRegions.org. Disponível online em www.marineregions.org . Consultado em 2020-12-08.;
