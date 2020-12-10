@@ -17,7 +17,7 @@ Banco de dados feitos a partir da extração dos vértices de arquivos shapefile
 
 4 Cálculo das coordenadas e selecão dos valores de interesse na tabela de atributos;
 
-<img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/4cord.jpg" alt="alt text" width="600px">
+<img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/4coord.jpg" alt="alt text" width="600px">
 
 5
 Tabela de atributos salva em formato csv.
