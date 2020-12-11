@@ -6,6 +6,19 @@ Install: pip install allblue==0.1.7
 
 ------
 
+Exemplo de uso:
+
+	>>>import allbluepy
+	>>>exem = allbluepy.Allblue()
+	>>>exem.buscar(-70, 45, 3)
+  
+	Código província                                      NWCS
+	Província           Coastal - NW Atlantic Shelves Province
+	x                                                      -70 <-coord mais próxima encontrada
+	y                                                       44 <-coord mais próxima encontrada
+  
+------
+
 Banco de dados feitos a partir da extração dos vértices de arquivos shapefile.
 
 1 Arquivos baixados em: Flanders Marine Institute (2020): MarineRegions.org. Disponível online em www.marineregions.org . Consultado em 2020-12-08.;
