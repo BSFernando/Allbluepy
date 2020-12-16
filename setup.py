@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='allblue',
-    version='0.1.7',
+    version='0.2.0',
     url='https://github.com/BSFernando',
     license='MIT License',
     description='Informações oceânicas referente a região mais próxima as cordenadas de entrada',
