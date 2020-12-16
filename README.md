@@ -2,7 +2,7 @@ Allblue retorna informações oceânicas como região, zona econômica e províc
 
 ------
 
-Install: pip install allblue==0.1.7
+Install: pip install allbluepy==0.2.0
 
 ------
 
