@@ -1,4 +1,3 @@
 include allbluepy/README.md
 include allbluepy/License.txt
-include allbluepy/help.txt
 global-include allbluepy/*.csv
