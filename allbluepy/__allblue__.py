@@ -1,39 +1,35 @@
 # -*- coding: utf-8 -*- 
 """
-Allblue retorna informações oceânicas referente a
-região mais próxima as cordenadas de entrada.
-
-Entrada:
-x: Longitude (graus e decimais do grau);
-y: Latitude (graus e decimais do grau);
-z: Informações:
-	0: Regiões oceânicas;
-	1: Ecorregiões e zonas oceânicas;
-        2: Zonas econômicas;
-	3: Províncias;
-	4: todas informações;
-
-Saída:
-	Código província 
-	Ecorregião Marinha
-	Província
-	Região
-	Soberano
-	Território
-	Zona
-	Zona econômica
-	x: Longitude mais próxima
-	y: Latitude mais próxima'
-
-Ex.:
-	import allbluepy
-	exem = allbluepy.Allblue()
-	exem.buscar(-70, 45, 3)
-
-	Código província                                      NWCS
-	Província           Coastal - NW Atlantic Shelves Province
-	x                                                      -70 <-coord mais próxima encontrada
-	y                                                       44 <-coord mais próxima encontrada
+Allblue returns ocean information regarding region closest to input coordinates.
+	Input:
+		x: Longitude (degrees and decimals of degree);
+		y: Latitude (degrees and decimals of degree);
+		z: Information:
+			0: Oceanic regions;
+			1: Ecoregions and ocean areas;
+			2: Economic zones;
+			3: Provinces;
+			4: all information;
+	Output:
+		Province code
+		Marine Ecoregion
+		Province
+		Region
+		Sovereign
+		Territory
+		Zone
+		Economic zone
+		x: Closest longitude
+		y: Closest latitude 
+		
+	Ex.:
+		import allbluepy
+		exem = allbluepy.Allblue ()
+		example.buscar (-70, 45, 3)
+		province code		NWCS 				
+		Province		Coastal Province - NW Atlantic Shelves 
+		x 			-70 <-nearest coord found
+		y 			44 <-nearest coord found
      """
     
 import pandas as pd
