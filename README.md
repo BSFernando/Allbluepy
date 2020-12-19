@@ -1,4 +1,4 @@
-Allblue retorna informações oceânicas como região, zona econômica e provícias das coordenadas mais próximas aos valores de entrada.
+Allbluepy returns oceanic information such as region, economic zone and provinces of coordinates closest to input values.
 
 ------
 
@@ -6,7 +6,7 @@ Install: pip install allbluepy==0.2.0
 
 ------
 
-Exemplo de uso:
+Example:
 
 	>>>import allbluepy
 	>>>exem = allbluepy.Allblue()
@@ -19,24 +19,23 @@ Exemplo de uso:
   
 ------
 
-Banco de dados feitos a partir da extração dos vértices de arquivos shapefile.
+Database made from extraction of vertices from shapefile files:
 
-1 Arquivos baixados em: Flanders Marine Institute (2020): MarineRegions.org. Disponível online em www.marineregions.org . Consultado em 2020-12-08.;
+1 Downloaded files: 'Flanders Marine Institute (2020): MarineRegions.org. Disponível online em www.marineregions.org . Consultado em 2020-12-08.';
 
 <img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/0site.jpg" alt="alt text" width="600px">
 
-2 Diminuição no número de vértices em cada polígono;
+2 Decrease in number of vertices in each polygon;
 
 <img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/1snap.jpg" alt="alt text" width="600px">
 
-3 Extração dos vértices;
+3 Vertices extraction;
 
 <img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/2vert.jpg" alt="alt text" width="600px">
 <img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/3pontos.jpg" alt="alt text" width="600px">
 
-4 Cálculo das coordenadas e selecão dos valores de interesse na tabela de atributos;
+4 Calculation of coordinates and selection of interest values in attribute table;
 
 <img src="https://github.com/BSFernando/Allblue/blob/main/jpeg/4coord.jpg" alt="alt text" width="600px">
 
-5
-Tabela de atributos salva em formato csv.
+5 Attribute table saved in csv format.
